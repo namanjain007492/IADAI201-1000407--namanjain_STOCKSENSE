@@ -1,4 +1,4 @@
-# 🛒 SmartMart AI — Intelligent Retail Product Detection System
+#  SmartMart AI — Intelligent Retail Product Detection System
 
 **SmartMart AI** is an AI-powered retail application designed to help simplify product identification, barcode scanning, inventory management, and sales-related analysis. It combines computer vision, optical character recognition (OCR), and database management in an interactive Streamlit dashboard.
 
@@ -6,7 +6,7 @@ App Link : https://iadai201-1000407--namanjainstocksense-m4xrnj7dvvb9puz2of2eqi.
 
 Screenshot Link:https://drive.google.com/drive/folders/1uFNzwtugOc9HbYZY5nOzGEppGys8zCXU?usp=sharing
 
-## 🚀 Features
+##  Features
 
 - **AI Product Detection:** Detects objects in uploaded images using the YOLO-World model.
 - **Image Tiling:** Analyzes image sections to help identify smaller or less prominent objects.
@@ -18,7 +18,7 @@ Screenshot Link:https://drive.google.com/drive/folders/1uFNzwtugOc9HbYZY5nOzGEpp
 - **Analytics Dashboard:** Presents product and detection information through interactive charts.
 - **Reports:** Helps users review available inventory and detection records.
 
-## 🧰 Technology Stack
+##  Technology Stack
 
 | Technology | Purpose |
 |---|---|
@@ -34,7 +34,7 @@ Screenshot Link:https://drive.google.com/drive/folders/1uFNzwtugOc9HbYZY5nOzGEpp
 | Pandas and NumPy | Data processing |
 | Plotly | Interactive charts and analytics |
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 SmartMart-AI/
@@ -46,7 +46,7 @@ SmartMart-AI/
 
 The database filename and additional files may differ depending on your application configuration.
 
-## ⚙️ Installation
+##  Installation
 
 ### 1. Clone the repository
 
@@ -85,7 +85,7 @@ streamlit run app.py
 
 Streamlit will display a local URL where you can open SmartMart AI in your browser.
 
-## 🖥️ How to Use
+## How to Use
 
 1. Launch the application.
 2. Upload an image containing retail products.
@@ -95,7 +95,7 @@ Streamlit will display a local URL where you can open SmartMart AI in your brows
 6. Manage the product catalogue and inventory.
 7. Explore the analytics dashboard and available reports.
 
-## 🧠 How It Works
+##  How It Works
 
 1. **Image input:** The user supplies a retail product image.
 2. **Preprocessing:** The image is prepared for computer vision analysis and may be divided into smaller sections.
@@ -104,7 +104,7 @@ Streamlit will display a local URL where you can open SmartMart AI in your brows
 5. **Database operations:** The application stores and retrieves supported product and detection records.
 6. **Visualisation:** Streamlit and Plotly present results in an accessible dashboard.
 
-## ⚠️ Limitations
+##  Limitations
 
 - Detection accuracy depends on image quality, lighting, object size, packaging, and the model's capabilities.
 - Similar-looking products and small snack packages may be missed or incorrectly classified.
@@ -114,11 +114,11 @@ Streamlit will display a local URL where you can open SmartMart AI in your brows
 - AI-generated detections should be reviewed before being used to update inventory.
 - Detection results are not guaranteed to be 100% accurate.
 
-## 🔒 Data and Privacy
+##  Data and Privacy
 
 The application uses SQLite for local database storage when configured that way. Image handling, model downloads, and other processing may involve additional files or external resources depending on the deployment configuration. Avoid uploading confidential customer or business information unless the deployment has been reviewed for privacy and security.
 
-## 🙏 Credits and Acknowledgements
+##  Credits and Acknowledgements
 
 SmartMart AI is built using the work and open-source contributions of the following projects:
 
@@ -152,7 +152,7 @@ https://arxiv.org/abs/2401.17270
 
 Please review the licence terms and attribution requirements of each dependency and model before redistributing or deploying the project.
 
-## 👨‍💻 Project Author
+##  Project Author
 
 **Developed by:** Naman Jain
 
