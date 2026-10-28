@@ -8,3 +8,4 @@ easyocr
 pyzbar
 plotly
 openpyxl
+openai-clip
