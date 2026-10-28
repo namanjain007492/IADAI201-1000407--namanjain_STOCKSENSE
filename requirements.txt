@@ -2,7 +2,9 @@ streamlit
 ultralytics
 Pillow
 pandas
+numpy
 opencv-python-headless
 easyocr
 pyzbar
 plotly
+openpyxl
