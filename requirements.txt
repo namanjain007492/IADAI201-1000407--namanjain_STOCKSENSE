@@ -1,5 +1,9 @@
 streamlit
 ultralytics
-Pillow
-pandas
 opencv-python-headless
+pandas
+numpy
+plotly
+Pillow
+easyocr
+pyzbar
