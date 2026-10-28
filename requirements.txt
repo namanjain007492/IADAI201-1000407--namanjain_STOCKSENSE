@@ -1,9 +1,7 @@
 streamlit
 ultralytics
-opencv-python-headless
-pandas
-numpy
-plotly
 Pillow
+pandas
+opencv-python-headless
 easyocr
 pyzbar
