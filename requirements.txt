@@ -5,3 +5,4 @@ pandas
 opencv-python-headless
 easyocr
 pyzbar
+plotly
